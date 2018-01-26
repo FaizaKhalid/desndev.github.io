@@ -179,29 +179,32 @@ ul#services h3{
   border-bottom: #353637 solid 1px;
 }
 
+
 @media(max-width: 768px){
-
-header .container{
-  float: center;
-  margin: 0px;
-  padding: 0px;
-  width: 100%;
-
-}
-
   header #branding,
   header nav,
   header nav li,
   #boxes .box,
   article#main-col,
-       {
+  aside#sidebar {
     float: none;
     text-align: center;
     width: 100%;
   }
 
-.dark{
-  width: 100%;
+
+.container{
+   padding: 0px;
+    width: 100%
+}
+
+  #showcase h1 {
+    margin-top: 40px;
+    font-size: 45px;
+  }
+  
+  .dark{
+    width: 70%;
   padding: 15px;
   background: #303030;
   color: #ffffff;
@@ -209,26 +212,5 @@ header .container{
   margin-bottom: 10px;
 }
 
-  header {
-    padding-bottom: 20px;
-    padding-left: 10px;
-  }
-
- 
-  #showcase h1 {
-    margin-top: 40px;
-    padding-left: 5px;
-    font-size: 30px;
-
-  }
-aside #sidebar{
-  width: 100%;
-}
-
-aside#sidebar input, aside#sidebar textarea {
-  padding: 5px;
-  margin-bottom:2px;
-  float: left;
-}
-
+  
 }
